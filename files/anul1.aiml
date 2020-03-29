@@ -110,7 +110,8 @@
 <category>
     <pattern>Road Rovers</pattern>
     <template>
-         <card>
+        <carousel>
+             <card>
                 <image>https://m.media-amazon.com/images/M/MV5BNzBmZjgyNjUtYjg5YS00ZWQ3LTg3N2MtNzMwM2QxNzE0ZTYxXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg</image>
                 <title>Road Rovers</title>
                 <subtitle>Gen: Comedie, Animatie, Actiune</subtitle>
@@ -119,14 +120,15 @@
                     <url>https://www.imdb.com/title/tt0115336/?ref_=fn_al_tt_1</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
                 <button>
                     <text>Vezi Trailer</text>
                     <url>https://www.youtube.com/watch?v=1VDa59HIpkE</url>
                 </button>
-         </card>
+            </card>
+        </carousel>
     </template>
 </category>
 
@@ -152,7 +154,7 @@
         <postback>Timeless Tales from Hallmark</postback>
     </button>
     <button>
-        <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+        <text>Vreau sa-mi recomanzi alt serial</text>
         <postback>recomandare1</postback>
     </button>
     </template>
@@ -171,7 +173,7 @@
                     <url>https://www.imdb.com/title/tt0444586/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -187,7 +189,7 @@
             <postback>Cartoon Planet</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -206,7 +208,7 @@
                     <url>https://www.imdb.com/title/tt0111911/?ref_=fn_al_tt_1</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
             </card>
@@ -236,7 +238,7 @@
             <postback>Hey Arnold</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -255,7 +257,7 @@
                     <url>https://www.imdb.com/title/tt0115200/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -271,7 +273,7 @@
             <postback>The Critic</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -290,7 +292,7 @@
                     <url>https://www.imdb.com/title/tt0108734/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
             </card>
@@ -320,7 +322,7 @@
             <postback>Dexter's Laboratory</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare</postback>
         </button>
     </template>
@@ -339,7 +341,7 @@
                     <url>https://www.imdb.com/title/tt0115157/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -355,7 +357,7 @@
             <postback>Cow and Chicken</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -374,7 +376,7 @@
                     <url>https://www.imdb.com/title/tt0118289/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -404,7 +406,7 @@
             <postback>Futurama</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -423,7 +425,7 @@
                     <url>https://www.imdb.com/title/tt0149460/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -439,7 +441,7 @@
             <postback>Kingdom Adventure</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
                 </button>
     </template>
@@ -458,7 +460,7 @@
                     <url>https://www.imdb.com/title/tt5513182/?ref_=nv_sr_srsg_7</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -488,7 +490,7 @@
             <postback>Animaniacs</postback>
         </button>
          <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -507,7 +509,7 @@
                     <url>https://www.imdb.com/title/tt0105941/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
              </card>
@@ -523,7 +525,7 @@
             <postback>Taz-mania</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare1</postback>
         </button>
     </template>
@@ -542,7 +544,7 @@
                     <url>https://www.imdb.com/title/tt0103562/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare1</postback>
                 </button>
             </card>
@@ -607,7 +609,7 @@
             <postback>Parker Lewis Can't Lose</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
     </template>
@@ -630,7 +632,7 @@
                     <url>https://www.imdb.com/title/tt0098888/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -646,7 +648,7 @@
             <postback>Ally McBeal</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
     </template>
@@ -665,7 +667,7 @@
                     <url>https://www.imdb.com/title/tt0118254/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -695,7 +697,7 @@
             <postback>Coach</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
      </template>
@@ -714,7 +716,7 @@
                     <url>https://www.imdb.com/title/tt0096560/?ref_=fn_al_tt_1</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -730,7 +732,7 @@
             <postback>Hangin' with Mr. Cooper</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
     </template>
@@ -749,7 +751,7 @@
                     <url>https://www.imdb.com/title/tt0103435/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -779,7 +781,7 @@
             <postback>The Wonder Years</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
     </template>
@@ -798,7 +800,7 @@
                     <url>https://www.imdb.com/title/tt0094582/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -829,7 +831,7 @@
                     <url>https://www.imdb.com/title/tt0101205/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -859,7 +861,7 @@
             <postback>Due South</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
     </template>
@@ -878,7 +880,7 @@
                     <url>https://www.imdb.com/title/tt0108756/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
             </card>
@@ -909,7 +911,7 @@
                     <url>https://www.imdb.com/title/tt0101088/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
              </card>
@@ -939,7 +941,7 @@
             <postback>Friends</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare2</postback>
         </button>
     </template>
@@ -958,7 +960,7 @@
                     <url>https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare2</postback>
                 </button>
             </card>
@@ -989,7 +991,7 @@
                     <url>https://www.imdb.com/title/tt0108761/?ref_=fn_al_tt_1</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
             </card>
@@ -1019,7 +1021,7 @@
             <postback>Home Improvement</postback>
         </button>
         <button>
-            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <text>Vreau sa-mi recomanzi alt serial</text>
             <postback>recomandare</postback>
         </button>
     </template>
@@ -1038,7 +1040,7 @@
                     <url>https://www.imdb.com/title/tt0101120/?ref_=nv_sr_srsg_0</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
             </card>
@@ -1069,7 +1071,7 @@
                     <url>https://www.imdb.com/title/tt0108927/?ref_=fn_al_tt_1</url>
                 </button>
                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <text>Vreau sa-mi recomanzi alt serial</text>
                     <postback>recomandare</postback>
                 </button>
             </card>

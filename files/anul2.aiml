@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+<category>
+    <pattern>2000 2010</pattern>
+    <than>* Ãntre ce ani aÈi dori sa fie cuprins serialul?</than>
+    <template>Vrei ca serialul sa fie animat ?
+    <think><set name = "topic">2000 2010</set></think> 
+    <think> <set name="an">2000-2010</set></think>
+    </template>
+</category>
+    
+<topic name = "2000 2010">
+        
+<category>
+    <pattern>da</pattern>
+    <than>* Vrei ca serialul sa fie animat ?</than>
+    <template>Ce alt gen mai preferi pe lÃ¢ngÄ comedie?
+        <button>
+            <text>Actiune</text>
+            <postback>actiune00</postback>
+        </button>
+        <button>
+            <text>Horror</text>
+            <postback>horror00</postback>
+        </button>
+        <button>
+            <text>Sci-Fi</text>
+            <postback>scifi00</postback>
+        </button>
+        <button>
+            <text>Aventura</text>
+            <postback>aventura00</postback>
+        </button>
+        <button>
+            <text>RealityTV</text>
+            <postback>realitytv00</postback>
+        </button>
+         <button>
+            <text>Familie</text>
+            <postback>familie00</postback>
+        </button>
+        <think><set name = "topic">animat</set></think>
+    </template>
+</category>
+
+<topic name = "animat">
+        
+<category>
+    <pattern>actiune00</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>30 minute</text>
+            <postback>act30</postback>
+        </button>
+        <button>
+            <text>45 minute</text>
+            <postback>act45</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>act30</pattern>
+    <template>VÄ recomand serialul: Archer
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Archer</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Archer</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMTg3NTMwMzY2OF5BMl5BanBnXkFtZTgwMDcxMjQ0NDE@._V1_SY1000_CR0,0,666,1000_AL_.jpg</image>
+                <title>Archer</title>
+                <subtitle>Gen: Comedie, Animatie, Actiune</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1486217/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+            
+<category>
+    <pattern>act45</pattern>
+    <template>VÄ recomand serialul: Rune Soldier
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Rune Soldier</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+            
+<category>
+    <pattern>Rune Soldier</pattern>
+    <template>
+         <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMjA5MDcwNjk2Nl5BMl5BanBnXkFtZTcwNTE1ODI4MQ@@._V1_.jpg</image>
+                <title>Rune Soldier</title>
+                <subtitle>Gen: Comedie, Animatie, Actiune</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0995014/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>horror00</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>75 minute</text>
+            <postback>hrr75</postback>
+        </button>
+        <button>
+            <text>30 minute</text>
+            <postback>hrr30</postback>
+        </button>
+    </template>
+    
+</category>
+    <category>
+    <pattern>hrr75</pattern>
+    <template>VÄ recomand serialul: Happy Tree Friends
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Happy Tree Friends</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Happy Tree Friends</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMzRiMjRkNDYtNjNmZC00MTQwLThjNGQtZDEzZDA0OWVlOWUxXkEyXkFqcGdeQXVyMjAxODI1Nzk@._V1_SY1000_CR0,0,777,1000_AL_.jpg</image>
+                <title>Happy Tree Friends</title>
+                <subtitle>Gen: Comedie, Animatie,Horror</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0770762/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>hrr30</pattern>
+    <template>VÄ recomand serialul: Wicked
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Wicked</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Wicked</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMmJkM2Q0YTktOGE1OS00ZTAxLTliMTgtMmVkNmE1MDQ1ZjBlXkEyXkFqcGdeQXVyMDM3ODU0Nw@@._V1_.jpg</image>
+                <title>Wicked</title>
+                <subtitle>Gen: Comedie, Animatie, Horror</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0341997/?ref_=adv_li_tt</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>scifi00</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>20 minute</text>
+            <postback>sf20</postback>
+        </button>
+        <button>
+            <text>30 minute</text>
+            <postback>sf30</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>sf20</pattern>
+    <template>VÄ recomand serialul: Harvey Birdman, Attorney at Law
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Harvey Birdman, Attorney at Law</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Harvey Birdman, Attorney at Law</pattern>
+     <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BZDZhNWFmODgtNzBmOC00YTUwLTk1MmItNDJhMDA5YjkzNzlmL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY999_CR0,0,706,999_AL_.jpg</image>
+                <title>Harvey Birdman, Attorney at Law</title>
+                <subtitle>Gen: Comedie, Animatie,Sci-Fi</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0294097/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>sf30</pattern>
+    <template>VÄ recomand serialul: Time Squad
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Time Squad</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Time Squad</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BYzViY2JmYTEtZmJkMS00NTFiLWJlYjItYmNjYTUxMmVjZGVmXkEyXkFqcGdeQXVyMzAxNTY5MzY@._V1_.jpg</image>
+                <title>Time Squad</title>
+                <subtitle>Gen: Comedie, Animatie, Sci-Fi</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0291672/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+ <category>
+    <pattern>aventura00</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>30 minute</text>
+            <postback>aven30</postback>
+        </button>
+        <button>
+            <text>35 minute</text>
+            <postback>aven35</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>aven30</pattern>
+    <template>VÄ recomand serialul: The Fairly OddParents
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>The Fairly OddParents</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>The Fairly OddParents</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BM2I0YjQ3NzgtMWE2Zi00NTgxLThlNDUtZTI0MjFlM2Y5NTM1XkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg</image>
+                <title>The Fairly OddParents</title>
+                <subtitle>Gen: Comedie, Animatie,Aventura</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0235918/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>aven35</pattern>
+    <template>VÄ recomand serialul: Kong: The Animated Series
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Kong: The Animated Series</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Kong: The Animated Series</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BZDNlNWIzYmQtYjdiYi00YTBjLWI0MDctZmI1OTEwMzU0ZTkwXkEyXkFqcGdeQXVyMjM5NDQzNTk@._V1_.jpg</image>
+                <title>Kong: The Animated Series</title>
+                <subtitle>Gen: Comedie, Animatie, Aventura</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0285377/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>realitytv00</pattern>
+    <template> Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>20 minute</text>
+            <postback>rtv20</postback>
+        </button>
+        <button>
+            <text>25 minute</text>
+            <postback>rtv25</postback>
+        </button>
+    </template>
+</category> 
+
+<category>
+    <pattern>rtv20</pattern>
+    <template>VÄ recomand serialul: Drawn Together
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Drawn Together</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Drawn Together</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BN2NkODVhNDYtNzJhYy00ZTY5LWJkNTktN2EzOWJkYWI5MjdmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTEwMTkwOTI@._V1_.jpg</image>
+                <title>Drawn Together</title>
+                <subtitle>Gen: Comedie, Animatie,RealityTV</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0386180/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>rtv25</pattern>
+    <template>VÄ recomand serialul: Total Drama Island
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Total Drama Island</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Total Drama Island</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BZDlkMWIzMWYtMjQ1NS00MzNhLWJkMDYtNDJjZjZmMmI1M2I0XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_.jpg</image>
+                <title>Total Drama Island</title>
+                <subtitle>Gen: Comedie, Animatie,RealityTV</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1173427/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>familie00</pattern>
+    <template> Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>15 minute</text>
+            <postback>fam15</postback>
+        </button>
+        <button>
+            <text>30 minute</text>
+            <postback>fam30</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>fam15</pattern>
+    <template>VÄ recomand serialul: Les Marchiens
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Les Marchiens</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Les Marchiens</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BYTk2N2U2ODYtNGIyMS00ZWIxLTg4OTktYWVlMDBjMDY3MWZhXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg</image>
+                <title>Les Marchiens</title>
+                <subtitle>Gen: Comedie, Animatie,Familie</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1483164/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare3</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>fam30</pattern>
+    <template>VÄ recomand serialul: What's with Andy?
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>What's with Andy?</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare3</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>What's with Andy?</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMjhmYWI1OTItOWI4Yy00Y2I1LTgyYjItNTNjMGI3MjI3NjNmXkEyXkFqcGdeQXVyNTEwNDY2MjU@._V1_SY1000_CR0,0,847,1000_AL_.jpg</image>
+                <title>What's with Andy?</title>
+                <subtitle>Gen: Comedie, Animatie,Familie</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0289036/?ref_=nv_sr_srsg_3</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+</topic>
+
+<category>
+    <pattern>nu</pattern>
+    <than>* Vrei ca serialul sa fie animat ?</than>
+    <template>Ce alt gen mai preferi pe lÃ¢ngÄ comedie?
+        <button>
+            <text>Actiune</text>
+            <postback>actiune00n</postback>
+        </button>
+        <button>
+            <text>Crima</text>
+            <postback>crima00n</postback>
+        </button>
+        <button>
+            <text>Drama</text>
+            <postback>drama00n</postback>
+        </button>
+        <button>
+            <text>Dragoste</text>
+            <postback>dragoste00n</postback>
+        </button>
+        <button>
+            <text>Mister</text>
+            <postback>mister00n</postback>
+        </button>
+        <button>
+            <text>Sport</text>
+            <postback>sport00n</postback>
+        </button>
+        <think><set name = "topic">neanimat</set></think>
+    </template>
+</category>
+
+<topic name = "neanimat">
+    
+<category>
+    <pattern>actiune00n</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>30 minute</text>
+            <postback>act30n</postback>
+        </button>
+        <button>
+            <text>45 minute</text>
+            <postback>act45n</postback>
+        </button>
+    </template>
+</category> 
+
+<category>
+    <pattern>act30n</pattern>
+    <template>VÄ recomand serialul: Spaced
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Spaced</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Spaced</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMmNjODUxNzctOWU2Zi00ZGU3LWI2MDEtMjZjNjE2MmJiMDZiXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_CR0,0,701,1000_AL_.jpg</image>
+                <title>Spaced</title>
+                <subtitle>Gen: Comedie,Actiune</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0187664/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+            
+<category>
+    <pattern>act45n</pattern>
+    <template>VÄ recomand serialul: Chuck
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Chuck</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+            
+<category>
+    <pattern>Chuck</pattern>
+    <template>
+         <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMTM0ODIwNjI3NF5BMl5BanBnXkFtZTcwODU2ODUzMw@@._V1_.jpg</image>
+                <title>Chuck</title>
+                <subtitle>Gen: Comedie,Actiune</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0934814/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category> 
+
+<category>
+    <pattern>crima00n</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>40 minute</text>
+            <postback>cr40</postback>
+        </button>
+        <button>
+            <text>45 minute</text>
+            <postback>cr45</postback>
+        </button>
+        </template>
+    </category>     
+    
+<category>
+    <pattern>cr40</pattern>
+    <template>VÄ recomand serialul: White Collar
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>White Collar</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>White Collar</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BNDI5MDgyMTYzNF5BMl5BanBnXkFtZTcwMjAwNzk1Mw@@._V1_.jpg</image>
+                <title>White Collar</title>
+                <subtitle>Gen: Comedie, Crima</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1358522/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+            
+<category>
+    <pattern>cr45</pattern>
+    <template>VÄ recomand serialul: Castle
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Castle</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+            
+<category>
+    <pattern>Castle</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMjM2NjU0ODU0NF5BMl5BanBnXkFtZTgwMDAwMzg5NjE@._V1_.jpg</image>
+                <title>Castle</title>
+                <subtitle>Gen: Comedie,Crima</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1219024/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>  
+
+<category>
+    <pattern>drama00n</pattern>
+    <template> Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>30 minute</text>
+            <postback>dra30n</postback>
+        </button>
+        <button>
+            <text>60 minute</text>
+            <postback>dra60n</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>dra30n</pattern>
+    <template>VÄ recomand serialul: Entourage
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Entourage</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Entourage</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BZDg3ZDc2MDQtNzQwZi00YzFjLTgyOTMtMDMzZTc5N2VlNTg2XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg</image>
+                <title>Entourage</title>
+                <subtitle>Gen: Comedie,Drama</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0387199/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+            
+<category>
+    <pattern>dra60n</pattern>
+    <template>VÄ recomand serialul: Six Feet Under
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Six Feet Under</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Six Feet Under</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMTQzODk5N2UtYjE4ZC00YWM1LWJkMGYtYmY2NjNjMjIzZDRmXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SY1000_CR0,0,666,1000_AL_.jpg</image>
+                <title>Six Feet Under</title>
+                <subtitle>Gen: Comedie,Drama</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0248654/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>dragoste00n</pattern>
+    <template> Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>25 minute</text>
+            <postback>drag25</postback>
+        </button>
+        <button>
+            <text>20 minute</text>
+            <postback>drag20</postback>
+        </button>
+    </template>
+</category> 
+
+<category>
+    <pattern>drag25</pattern>
+    <template>VÄ recomand serialul: The Big Bang Theory
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>The Big Bang Theory</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>The Big Bang Theory</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_SY1000_CR0,0,666,1000_AL_.jpg</image>
+                <title>The Big Bang Theory</title>
+                <subtitle>Gen: Comedie, Dragoste</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0898266/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+            
+<category>
+    <pattern>drag20</pattern>
+    <template>VÄ recomand serialul: How I Met Your Mother
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>How I Met Your Mother</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+            
+<category>
+    <pattern>How I Met Your Mother</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BZWJjMDEzZjUtYWE1Yy00M2ZiLThlMmItODljNTAzODFiMzc2XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_CR0,0,666,1000_AL_.jpg</image>
+                <title>How I Met Your Mother</title>
+                <subtitle>Gen: Comedie, Dragoste</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0460649/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+
+<category>
+    <pattern>mister00n</pattern>
+    <template>Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>40 minute</text>
+            <postback>mis40</postback>
+        </button>
+        <button>
+            <text>45 minute</text>
+            <postback>mis45</postback>
+        </button>
+    </template>
+</category>  
+
+<category>
+    <pattern>mis40</pattern>
+    <template>VÄ recomand serialul: Lie to Me
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Lie to Me</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+        
+<category>
+    <pattern>Lie to Me</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMTc2MjA4MTM2OV5BMl5BanBnXkFtZTcwMTYzMzA1Mg@@._V1_.jpg</image>
+                <title>Lie to Me</title>
+                <subtitle>Gen: Comedie,Mister</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1235099/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category>
+            
+<category>
+    <pattern>mis45</pattern>
+    <template>VÄ recomand serialul: Psych
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Psych</postback>
+        </button>
+    </template>
+</category>
+            
+<category>
+    <pattern>Psych</pattern>
+    <template>
+        <carousel> 
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BYzRkOWRmNGUtYzM0Zi00ZGRkLThhMjktNmI4NDYwZDVmODBkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg</image>
+                <title>Psych</title>
+                <subtitle>Gen: Comedie,Mister</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0491738/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category> 
+
+<category>
+    <pattern>sport00n</pattern>
+    <template> Ce durata ai vrea sa aiba un episod?
+        <button>
+            <text>20 minute</text>
+            <postback>sp20</postback>
+        </button>
+        <button>
+            <text>30 minute</text>
+            <postback>sp30</postback>
+        </button>
+    </template>
+</category>  
+
+<category>
+    <pattern>sp20</pattern>
+        <template>VÄ recomand serialul: The League
+            <button>
+                <text>Vreau informaÈii despre acest serial</text>
+                <postback>The League</postback>
+            </button>
+            <button>
+                <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                <postback>recomandare4</postback>
+            </button>
+    </template>
+</category>
+
+<category>
+    <pattern>The League</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMjAxMDg2NTc4OV5BMl5BanBnXkFtZTgwNTI2NTIzNjE@._V1_SY1000_SX800_AL_.jpg</image>
+                <title>The League</title>
+                <subtitle>Gen: Comedie,Sport</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt1480684/?ref_=nv_sr_srsg_3</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category> 
+
+<category>
+    <pattern>sp30</pattern>
+    <template>VÄ recomand serialul: Eastbound and Down
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Eastbound and Down</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare4</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Eastbound and Down</pattern>
+    <template>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMjAwNDU2NTM4Nl5BMl5BanBnXkFtZTcwMzg0NTc4Mw@@._V1_.jpg</image>
+                <title>Eastbound and Down</title>
+                <subtitle>Gen: Comedie,Sport</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0866442/?ref_=nv_sr_srsg_0</url>
+                </button>
+                <button>
+                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+                    <postback>recomandare4</postback>
+                </button>
+            </card>
+        </carousel>
+    </template>
+</category> 
+
+</topic>
+</topic>
+</aiml>

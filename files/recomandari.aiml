@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	
+<category>
+   <pattern>recomandare1</pattern>
+   <than>* Vreau sa-mi recomanzi alt serial</than>
+   <template>
+	   <random>
+        <li>
+           <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BODdmZmFlMGUtZWE5NC00NmU5LTg3NzItOTNjNDc4ZTc2YzI1XkEyXkFqcGdeQXVyNjM1MTQ0NTQ@._V1_.jpg</image>
+                <title>The Powerpuff Girls</title>
+                <subtitle>Gen: Comedie, Animatie, Actiune</subtitle>
+                <button>
+                   <text>Vezi IMDB</text>
+                   <url>https://www.imdb.com/title/tt0175058/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                   <text>Vezi trailer</text>
+                   <url>https://youtu.be/u0AdpedgZzE</url>
+                </button>
+            </card>
+          </carousel>
+        </li>
+        <li> 
+            <carousel>
+             <card>
+                <image>https://m.media-amazon.com/images/M/MV5BNzBmZjgyNjUtYjg5YS00ZWQ3LTg3N2MtNzMwM2QxNzE0ZTYxXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg</image>
+                <title>Road Rovers</title>
+                <subtitle>Gen: Comedie, Animatie, Actiune</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0115336/?ref_=fn_al_tt_1</url>
+                </button>
+                <button>
+                    <text>Vezi Trailer</text>
+                    <url>https://www.youtube.com/watch?v=1VDa59HIpkE</url>
+                </button>
+             </card>
+            </carousel>
+        </li>
+        <li>
+         <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMjk0MWRlMjctY2FjZi00YTliLTgxNzctZGZkZGU2ODAxODRlXkEyXkFqcGdeQXVyOTc2Mzg5OQ@@._V1_.jpg</image>
+                <title>Cartoon Planet</title>
+                <subtitle>Gen: Comedie, Animatie, Musical</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0111911/?ref_=fn_al_tt_1</url>
+                </button>
+            </card>
+        </carousel>   
+            
+        </li>
+        <li>
+        <carousel>
+            <card>
+                <image>https://m.media-amazon.com/images/M/MV5BMzdlMDMxNzItNmViNS00NDRkLTg3OWMtNjliZGIxY2M5N2YyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg</image>
+                <title>Dexter's Laboratory</title>
+                <subtitle>Gen: Comedie, Animatie,Aventura</subtitle>
+                <button>
+                    <text>Vezi Detalii</text>
+                    <url>https://www.imdb.com/title/tt0115157/?ref_=nv_sr_srsg_0</url>
+                </button>
+            </card>
+        </carousel>
+        </li>
+        </random>
+	        
+	 </template>
+</category>
+</aiml>

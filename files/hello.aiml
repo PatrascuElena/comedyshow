@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+	    <pattern>*</pattern>
+	    <template>Nu Ètiu ce sÄ rÄspund!</template>
+    </category>
+    
+    <category>
+        <pattern>Buna *</pattern>
+        <template>Buna <set name="buna"><star /></set>! Pentru Ã®nceput aÈ dori sa Ètiu cum te numeÈti?</template>
+    </category>
+	
+ <category>
+    <pattern>Salut</pattern>
+    <template><srai>Buna</srai></template>
+  </category>
+  
+   <category>
+    <pattern>Salutare</pattern>
+    <template><srai>Buna</srai></template>
+  </category>
+  
+  <category>
+      <pattern>Buna</pattern>
+      <template>Buna! Pentru Ã®nceput aÈ dori sa Ètiu cum te numeÈti?</template>
+  </category>
+  	
+  	<category>
+	    <pattern>Ma numesc * </pattern>
+	    <template>ÃncÃ¢ntat de cunoÈtinÈÄ <set name="nume"><star /></set>. Doresti sa iti recomand un serial de comedie?</template>
+    </category>
+    
+    	<category>
+	    <pattern>Numele meu este * </pattern>
+	    <template>ÃncÃ¢ntat de cunoÈtinÈÄ <set name="nume"><star /></set>. Doresti sa iti recomand un serial de comedie?</template>
+    </category>
+    
+    	<category>
+	    <pattern>Sunt * </pattern>
+	    <template>ÃncÃ¢ntat de cunoÈtinÈÄ <set name="nume"><star /></set>. Doresti sa iti recomand un serial de comedie?</template>
+    </category>
+    
+ <category>
+        <pattern>Cine sunt </pattern>
+        <template>
+            <think><set var="verificanume"><get name="nume" /></set></think> 
+            <condition var="verificanume">
+                <li value="unknown">IncÄ nu te-ai prezentat!</li>
+                <li>Numele tau este <get var="verificanume" />.</li>
+           </condition>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>Cum ma cheama </pattern>
+        <template>
+            <think><set var="verificanume"><get name="nume" /></set></think> 
+            <condition var="verificanume">
+                <li value="unknown">IncÄ nu te-ai prezentat!</li>
+                <li>Numele tau este <get var="verificanume" />.</li>
+           </condition>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>Care este numele meu </pattern>
+        <template>
+            <think><set var="verificanume"><get name="nume" /></set></think> 
+            <condition var="verificanume">
+                <li value="unknown">IncÄ nu te-ai prezentat!</li>
+                <li>Numele tau este <get var="verificanume" />.</li>
+           </condition>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>Cum ma numesc</pattern>
+        <template>
+            <think><set var="verificanume"><get name="nume" /></set></think> 
+            <condition var="verificanume">
+                <li value="unknown">IncÄ nu te-ai prezentat!</li>
+                <li>Numele tau este <get var="verificanume" />.</li>
+           </condition>
+        </template>
+    </category>
+         <category>
+        <pattern>Ce nume am</pattern>
+        <template>
+            <think><set var="verificanume"><get name="nume" /></set></think> 
+            <condition var="verificanume">
+                <li value="unknown">IncÄ nu te-ai prezentat!</li>
+                <li>Numele tau este <get var="verificanume" />.</li>
+           </condition>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>^ cine esti ^</pattern>
+        <template>
+		Numele meu este <bot name="name" />, iar scopul meu este de a vÄ ajuta sÄ gÄsiÈi un serial de comedie care sa corespundÄ cu cerinÈele dumneavoastrÄ.
+		<br/> Doresti sa iti recomand un serial de comedie?
+		</template>
+    </category>
+    
+         <category>
+        <pattern>^ numesti ^</pattern>
+        <template>
+		Numele meu este <bot name="name" />, iar scopul meu este de a vÄ ajuta sÄ gÄsiÈiun serial de comedie care sa corespundÄ cu cerinÈele dumneavoastrÄ.
+		<br/> Doresti sa iti recomand un serial de comedie?
+		</template>
+    </category>
+    
+         <category>
+        <pattern>^ numele ^</pattern>
+        <template>
+		Numele meu este <bot name="name" />, iar scopul meu este de a vÄ ajuta sÄ gÄsiÈi un serial de comedie care sa corespundÄ cu cerinÈele dumneavoastrÄ.
+		<br/> Doresti sa iti recomand un serial de comedie?
+		</template>
+    </category>
+    
+         <category>
+        <pattern>^ nume ^</pattern>
+        <template>
+		Numele meu este <bot name="name" />, iar scopul meu este de a vÄ ajuta sÄ gÄsiÈi un serial de comedie care sa corespundÄ cu cerinÈele dumneavoastrÄ.
+		<br/> Doresti sa iti recomand un serial de comedie?
+		</template>
+    </category>
+    
+        <category>
+	    <pattern>Ce faci </pattern>
+	    <template>Bine, mulÈumesc. Doresti sa iti recomand un serial de comedie?</template>
+    </category>
+    
+    
+
+    
+    
+        <category>
+            <pattern>nu</pattern>
+            <than> * Doresti sa iti recomand un serial de comedie?</than>
+            <template>Ãmi pare rÄu ca nu vÄ pot ajuta, vÄ doresc o zi frumoasÄ Ã®n continuare!</template>
+        </category>
+        
+        <category>
+            <pattern>^ nu ^</pattern>
+            <than> * Doresti sa iti recomand un serial de comedie?</than>
+            <template>Ãmi pare rÄu ca nu vÄ pot ajuta, vÄ doresc o zi frumoasÄ Ã®n continuare!</template>
+        </category>
+        
+        <category>
+            <pattern>da</pattern>
+            <template>Ãntre ce ani aÈi dori sa fie cuprins serialul?
+            <button>
+                <text>1990-2000</text>
+                <postback>1990 2000</postback>
+            </button>
+            <button>
+                <text>2000-2010</text>
+                <postback>2000 2010</postback>
+            </button>
+            <button>
+                <text>2010-2020</text>
+                <postback>2010 2020</postback>
+            </button>
+            
+            </template>
+        </category>
+        
+        <category>
+            <pattern>^ da ^</pattern>
+            <template>Ãntre ce ani aÈi dori sa fie cuprins serialul?
+            <button>
+                <text>1990-2000</text>
+                <postback>1990 2000</postback>
+            </button>
+            <button>
+                <text>2000-2010</text>
+                <postback>2000 2010</postback>
+            </button>
+            <button>
+                <text>2010-2020</text>
+                <postback>2010 2020</postback>
+            </button>
+            
+            </template>
+        </category>
+        
+        
+
+        <category>
+            <pattern>1990 2000</pattern>
+            <template><srai>1990 2000</srai></template>
+        </category>
+        
+        <category>
+            <pattern>2000 2010</pattern>
+            <template><srai>2000 2010</srai></template>
+        </category>
+        
+                <category>
+            <pattern>2010 2020</pattern>
+            <template><srai>2010 2020</srai></template>
+        </category>
+        
+        <category>
+            <pattern>2000</pattern>
+            <template>Nu aÈi introdus intervalul corespunzÄtor. AlegeÈi intervalul scris exact ca in variantele de mai jos:
+           <ul> 
+                <li>1990 2000</li>
+                <li>2000 2010</li>
+                <li>2010 2020</li>
+            </ul>
+            </template>
+        </category>
+        
+        <category>
+            <pattern>2009</pattern>
+            <template>Nu aÈi introdus intervalul corespunzÄtor. AlegeÈi intervalul scris exact ca in variantele de mai jos:
+           <ul> 
+                <li>1990 2000</li>
+                <li>2000 2010</li>
+                <li>2010 2020</li>
+            </ul>
+            </template>
+        </category>
+        <category>
+            <pattern>2010</pattern>
+            <template>Nu aÈi introdus intervalul corespunzÄtor. AlegeÈi intervalul scris exact ca in variantele de mai jos:
+           <ul> 
+                <li>1990 2000</li>
+                <li>2000 2010</li>
+                <li>2010 2020</li>
+            </ul>
+            </template>
+        </category>
+        <category>
+            <pattern>2019</pattern>
+            <template>Nu aÈi introdus intervalul corespunzÄtor. AlegeÈi intervalul scris exact ca in variantele de mai jos:
+           <ul> 
+                <li>1990 2000</li>
+                <li>2000 2010</li>
+                <li>2010 2020</li>
+            </ul>
+            </template>
+        </category>
+
+        
+               
+
+</aiml>

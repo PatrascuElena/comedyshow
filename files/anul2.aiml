@@ -676,17 +676,17 @@
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>40 minute</text>
-            <postback>cr40</postback>
+            <postback>cr40n</postback>
         </button>
         <button>
             <text>45 minute</text>
-            <postback>cr45</postback>
+            <postback>cr45n</postback>
         </button>
         </template>
     </category>     
     
 <category>
-    <pattern>cr40</pattern>
+    <pattern>cr40n</pattern>
     <template>VÄ recomand serialul: White Collar
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -721,7 +721,7 @@
 </category>
             
 <category>
-    <pattern>cr45</pattern>
+    <pattern>cr45n</pattern>
     <template>VÄ recomand serialul: Castle
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -840,17 +840,17 @@
     <template> Ce durata ai vrea sa aiba un episod?
         <button>
             <text>25 minute</text>
-            <postback>drag25</postback>
+            <postback>drag25n</postback>
         </button>
         <button>
             <text>20 minute</text>
-            <postback>drag20</postback>
+            <postback>drag20n</postback>
         </button>
     </template>
 </category> 
 
 <category>
-    <pattern>drag25</pattern>
+    <pattern>drag25n</pattern>
     <template>VÄ recomand serialul: The Big Bang Theory
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -885,7 +885,7 @@
 </category>
             
 <category>
-    <pattern>drag20</pattern>
+    <pattern>drag20n</pattern>
     <template>VÄ recomand serialul: How I Met Your Mother
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -924,17 +924,17 @@
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>40 minute</text>
-            <postback>mis40</postback>
+            <postback>mis40n</postback>
         </button>
         <button>
             <text>45 minute</text>
-            <postback>mis45</postback>
+            <postback>mis45n</postback>
         </button>
     </template>
 </category>  
 
 <category>
-    <pattern>mis40</pattern>
+    <pattern>mis40n</pattern>
     <template>VÄ recomand serialul: Lie to Me
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -969,7 +969,7 @@
 </category>
             
 <category>
-    <pattern>mis45</pattern>
+    <pattern>mis45n</pattern>
     <template>VÄ recomand serialul: Psych
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -1004,17 +1004,17 @@
     <template> Ce durata ai vrea sa aiba un episod?
         <button>
             <text>20 minute</text>
-            <postback>sp20</postback>
+            <postback>sp20n</postback>
         </button>
         <button>
             <text>30 minute</text>
-            <postback>sp30</postback>
+            <postback>sp30n</postback>
         </button>
     </template>
 </category>  
 
 <category>
-    <pattern>sp20</pattern>
+    <pattern>sp20n</pattern>
         <template>VÄ recomand serialul: The League
             <button>
                 <text>Vreau informaÈii despre acest serial</text>
@@ -1049,7 +1049,7 @@
 </category> 
 
 <category>
-    <pattern>sp30</pattern>
+    <pattern>sp30n</pattern>
     <template>VÄ recomand serialul: Eastbound and Down
         <button>
             <text>Vreau informaÈii despre acest serial</text>

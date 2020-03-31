@@ -5,7 +5,7 @@
 <category>
 	<pattern>2010 2020</pattern>
 	<than> * Ãntre ce ani aÈi dori sa fie cuprins serialul?</than>
-	<template>Vrei ca filmul sa fie animat?
+	<template>Vrei ca serialul sa fie animat?
     <think><set name = "topic">2010 2020</set></think>
     <think> <set name="an">2010 2020</set></think>
 	 </template>
@@ -15,7 +15,7 @@
         
 <category>
     <pattern>da</pattern>
-    <than>* Vrei ca filmul sa fie animat?</than>
+    <than>* Vrei ca serialul sa fie animat?</than>
     <template>Ce alt gen mai preferi pe lÃ¢ngÄ comedie?
     <button>
         <text>Actiune</text>
@@ -393,7 +393,7 @@
         </button>
         <button>
             <text>25 minute</text>
-            <postback>fan35</postback>
+            <postback>fan25</postback>
         </button>
     </template>
 </category> 
@@ -556,7 +556,7 @@
 
 <category>
     <pattern>nu</pattern>
-    <than>* Vrei ca filmul sa fie animat?</than>
+    <than>* Vrei ca serialul sa fie animat?</than>
     <template>Ce alt gen mai preferi pe lÃ¢ngÄ comedie?
         <button>
             <text>Actiune</text>
@@ -689,10 +689,10 @@
 
 <category>
     <pattern>cm25n</pattern>
-    <template>VÄ recomand serialul: Brooklyn Nine-Nine
+    <template>VÄ recomand serialul: Brooklyn Nine Nine
         <button>
             <text>Vreau informaÈii despre acest serial</text>
-            <postback>Brooklyn Nine-Nine</postback>
+            <postback>Brooklyn Nine Nine</postback>
         </button>
         <button>
             <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
@@ -702,7 +702,7 @@
 </category>
         
 <category>
-    <pattern>Brooklyn Nine-Nine</pattern>
+    <pattern>Brooklyn Nine Nine</pattern>
     <template>
         <carousel>
             <card>
@@ -728,6 +728,10 @@
         <button>
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Orange Is The New Black</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare6</postback>
         </button>
     </template>
 </category>
@@ -810,6 +814,10 @@
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Rake</postback>
         </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare6</postback>
+        </button>
     </template>
 </category>
             
@@ -849,11 +857,11 @@
 </category>     
 
 <category>
-    <pattern>drg30n</pattern>
-    <template>VÄ recomand serialul: You're The Worst
+    <pattern>dr30n</pattern>
+    <template>VÄ recomand serialul: You Are The Worst
         <button>
             <text>Vreau informaÈii despre acest serial</text>
-            <postback>You're The Worst</postback>
+            <postback>You Are The Worst</postback>
         </button>
         <button>
             <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
@@ -863,7 +871,7 @@
 </category>
         
 <category>
-    <pattern>You're The Worst</pattern>
+    <pattern>You Are The Worst</pattern>
     <template>
         <carousel>
             <card>
@@ -885,11 +893,15 @@
             
             
 <category>
-    <pattern>drg45n</pattern>
+    <pattern>dr45n</pattern>
     <template>VÄ recomand serialul: My Mad Fat Diary
         <button>
             <text>Vreau informaÈii despre acest serial</text>
             <postback>My Mad Fat Diary</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare6</postback>
         </button>
     </template>
 </category>
@@ -970,6 +982,10 @@
         <button>
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Ash vs Evil Dead</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare6</postback>
         </button>
     </template>
 </category>

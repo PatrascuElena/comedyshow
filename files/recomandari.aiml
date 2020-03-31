@@ -441,6 +441,7 @@
 <category>
     <pattern>recomandare5</pattern>
     <template>
+    <random>
     <li>
     <carousel>
             <card>
@@ -543,6 +544,7 @@
             </card>
     </carousel>        
     </li>
+    </random>
     </template>
 </category>
 

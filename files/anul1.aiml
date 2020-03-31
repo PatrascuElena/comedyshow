@@ -4,7 +4,7 @@
 <category>
     <pattern>1990 2000</pattern>
     <than>* Ãntre ce ani aÈi dori sa fie cuprins serialul?</than>
-    <template>Vrei ca filmul sa fie animat ?
+    <template>Vrei ca serialul sa fie animat ?
     <think><set name = "topic">1990 2000</set></think> 
     <think> <set name="an">1990-2000</set></think>
     </template>
@@ -14,31 +14,31 @@
 
 <category>
     <pattern>da</pattern>
-    <than>* Vrei ca filmul sa fie animat ?</than>
+    <than>* Vrei ca serialul sa fie animat ?</than>
     <template>Ce alta categorie preferi pe langa comedie?
        <button>
            <text>Actiune</text>
-           <postback>actiune99</postback>
+           <postback>actiune99a</postback>
        </button>
         <button>
             <text>Musical</text>
-            <postback>musical99</postback>
+            <postback>musical99a</postback>
         </button>
         <button>
             <text>Drama</text>
-            <postback>drama99</postback>
+            <postback>drama99a</postback>
         </button>
         <button>
             <text>Aventura</text>
-            <postback>aventura99</postback>
+            <postback>aventura99a</postback>
         </button>
         <button>
             <text>Fantasy</text>
-            <postback>fantasy99</postback>
+            <postback>fantasy99a</postback>
         </button>
         <button>
             <text>Familie</text>
-            <postback>familie99</postback>
+            <postback>familie99a</postback>
         </button>
         <think><set name = "topic">animat</set></think>
     </template>
@@ -46,21 +46,21 @@
 <topic name = "animat">   
 
 <category>
-    <pattern>actiune99</pattern>
+    <pattern>actiune99a</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>20 minute</text>
-            <postback>actiune20</postback>
+            <postback>actiune20a</postback>
         </button>
         <button>
             <text>30 minute</text>
-            <postback>actiune30</postback>
+            <postback>actiune30a</postback>
         </button>
     </template>
 </category>
 
 <category>
-    <pattern>actiune20</pattern>
+    <pattern>actiune20a</pattern>
     <template>Iti recomand serialul: The Powerpuff Girls
     <button>
         <text>Vreau informaÈii despre acest serial</text>
@@ -94,7 +94,7 @@
 </category>
 
 <category>
-    <pattern>actiune30</pattern>
+    <pattern>actiune30a</pattern>
     <template>Iti recomand serialul: Road Rovers
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -133,21 +133,21 @@
 </category>
 
 <category>
-    <pattern>musical99</pattern>
+    <pattern>musical99a</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
     <button>
         <text>30 minute</text>
-        <postback>musical30</postback>
+        <postback>musical30a</postback>
     </button>
     <button>
         <text>60 minute</text>
-        <postback>musical60</postback>
+        <postback>musical60a</postback>
     </button>
     </template>
 </category>
 
 <category>
-    <pattern>musical30</pattern>
+    <pattern>musical30a</pattern>
     <template>VÄ recomand serialul: Timeless Tales from Hallmark
     <button>
         <text>Vreau informaÈii despre acest serial</text>
@@ -182,7 +182,7 @@
 </category>
 
 <category>
-    <pattern>musical60</pattern>
+    <pattern>musical60a</pattern>
     <template>VÄ recomand serialul: Cartoon Planet
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -217,21 +217,21 @@
 </category>
 
 <category>
-    <pattern>drama99</pattern>
+    <pattern>drama99a</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
     <button>
         <text>20 minute</text>
-        <postback>drama20</postback>
+        <postback>drama20a</postback>
     </button>
     <button>
         <text>30 minute</text>
-        <postback>drama30</postback>
+        <postback>drama30a</postback>
     </button>
     </template>
 </category>
 
 <category>
-    <pattern>drama20</pattern>
+    <pattern>drama20a</pattern>
     <template>Iti recomand serialul: Hey Arnold
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -266,7 +266,7 @@
 </category>
 
 <category>
-    <pattern>drama30</pattern>
+    <pattern>drama30a</pattern>
     <template>VÄ recomand serialul: The Critic
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -301,21 +301,21 @@
 </category>
 
 <category>
-    <pattern>aventura99</pattern>
+    <pattern>aventura99a</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
-            <text>20min</text>
-            <postback>aventura20</postback>
+            <text>20 minute</text>
+            <postback>aventura20a</postback>
         </button>
         <button>
-            <text>30min</text>
-            <postback>aventura30</postback>
+            <text>30 minute</text>
+            <postback>aventura30a</postback>
         </button>
     </template>
 </category>
 
 <category>
-    <pattern>aventura20</pattern>
+    <pattern>aventura20a</pattern>
     <template>VÄ recomand serialul: Dexter's Laboratory
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -350,7 +350,7 @@
 </category>
 
 <category>
-    <pattern>aventura30</pattern>
+    <pattern>aventura30a</pattern>
     <template>VÄ recomand serialul: Cow and Chicken
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -385,21 +385,21 @@
 </category>
 
 <category>
-    <pattern>fantasy</pattern>
+    <pattern>fantasy99a</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>20 minute</text>
-            <postback>fantasy20</postback>
+            <postback>fantasy20a</postback>
         </button>
         <button>
             <text>30 minute</text>
-            <postback>fantasy30</postback>
+            <postback>fantasy30a</postback>
         </button>
     </template>
 </category> 
 
 <category>
-    <pattern>fantasy20</pattern>
+    <pattern>fantasy20a</pattern>
     <template>VÄ recomand serialul: Futurama
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -434,7 +434,7 @@
 </category>
 
 <category>
-    <pattern>fantasy30</pattern>
+    <pattern>fantasy30a</pattern>
     <template>VÄ recomand serialul: Kingdom Adventure
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -469,21 +469,21 @@
 </category>
 
 <category>
-    <pattern>familie99</pattern>
+    <pattern>familie99a</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>20 minute</text>
-            <postback>familie20</postback>
+            <postback>familie20a</postback>
         </button>
         <button>
             <text>30 minute</text>
-            <postback>familie30</postback>
+            <postback>familie30a</postback>
         </button>
     </template>
 </category>
 
 <category>
-    <pattern>familie20</pattern>
+    <pattern>familie20a</pattern>
     <template>VÄ recomand serialul: Animaniacs
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -518,7 +518,7 @@
 </category>
 
 <category>
-    <pattern>familie30</pattern>
+    <pattern>familie30a</pattern>
     <template>VÄ recomand serialul: Taz-mania
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -555,7 +555,7 @@
 
 <category>
     <pattern>nu</pattern>
-    <than>* Vrei ca filmul sa fie animat ?</than>
+    <than>* Vrei ca serialul sa fie animat ?</than>
     <template>Ce alta categorie preferi pe langa comedie?
         <button>
             <text>Fantasy</text>
@@ -764,7 +764,7 @@
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>20 minute</text>
-            <postback>drama20n</postback>
+            <postback>dramaa20n</postback>
         </button>
         <button>
             <text>30 minute</text>
@@ -774,7 +774,7 @@
  </category>   
 
 <category>
-    <pattern>drama20n</pattern>
+    <pattern>dramaa20n</pattern>
     <template>VÄ recomand serialul: The Wonder Years
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -815,6 +815,10 @@
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Step By Step</postback>
          </button>
+         <button>
+            <text>Vreau sa-mi recomanzi alt serial</text>
+            <postback>recomandare2</postback>
+        </button>
     </template>
 </category>
             
@@ -895,6 +899,10 @@
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Eerie,Indiana</postback>
         </button>
+        <button>
+            <text>Vreau sa-mi recomanzi alt serial</text>
+            <postback>recomandare2</postback>
+        </button>
     </template>
 </category>
             
@@ -924,7 +932,7 @@
     <template> Ce durata ai vrea sa aiba un episod?
         <button>
             <text>20 minute</text>
-            <postback>dragoste20n</postback>
+            <postback>dragostee20n</postback>
         </button>
         <button>
             <text>30 minute</text>
@@ -934,7 +942,7 @@
 </category> 
 
 <category>
-    <pattern>dragoste20n</pattern>
+    <pattern>dragostee20n</pattern>
     <template>VÄ recomand serialul: Friends
         <button>
             <text>Vreau informaÈii despre acest serial</text>
@@ -974,6 +982,10 @@
         <button>
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Ellen</postback>
+        </button>
+        <button>
+            <text>Vreau sa-mi recomanzi alt serial</text>
+            <postback>recomandare2</postback>
         </button>
     </template>
 </category>
@@ -1054,6 +1066,10 @@
         <button>
             <text>Vreau informaÈii despre acest serial</text>
             <postback>Sister, Sister</postback>
+        </button>
+        <button>
+            <text>Vreau sa-mi recomanzi alt serial</text>
+            <postback>recomandare2</postback>
         </button>
      </template>
 </category>

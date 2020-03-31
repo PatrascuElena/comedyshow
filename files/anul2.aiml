@@ -544,7 +544,7 @@
                 </button>
                 <button>
                     <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
-                    <postback>recomandare</postback>
+                    <postback>recomandare3</postback>
                 </button>
             </card>
         </carousel>

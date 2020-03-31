@@ -209,7 +209,7 @@
                 </button>
                 <button>
                     <text>Vreau sa-mi recomanzi alt serial</text>
-                    <postback>recomandare</postback>
+                    <postback>recomandare1</postback>
                 </button>
             </card>
         </carousel>

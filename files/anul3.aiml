@@ -209,7 +209,7 @@
                 </button>
                 <button>
                     <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
-                    <postback>recomandare</postback>
+                    <postback>recomandare5</postback>
                 </button>
             </card>
         </carousel>
@@ -602,18 +602,17 @@
     </template>
 </category> 
 
-      <category>
-            <pattern>act30minn</pattern>
-            <template>VÄ recomand serialul: Cobra Kai
-                 <button>
-                     <text>Vreau informaÈii despre acest serial</text>
-                     <postback>Cobra Kai</postback>
-                 </button>
-                 
-                 <button>
-                    <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
-                    <postback>recomandare6</postback>
-                </button>
+<category>
+    <pattern>act30minn</pattern>
+    <template>VÄ recomand serialul: Cobra Kai
+        <button>
+            <text>Vreau informaÈii despre acest serial</text>
+            <postback>Cobra Kai</postback>
+        </button>
+        <button>
+            <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
+            <postback>recomandare6</postback>
+        </button>
     </template>
 </category>
         
@@ -759,7 +758,7 @@
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>45 minute</text>
-            <postback>dram30n</postback>
+            <postback>dram45n</postback>
         </button>
         <button>
             <text>60 minute</text>
@@ -836,7 +835,7 @@
 </category>
 
 <category>
-    <pattern>dragoste</pattern>
+    <pattern>dragoste20n</pattern>
     <template>Ce durata ai vrea sa aiba un episod?
         <button>
             <text>30 minute</text>
@@ -864,7 +863,7 @@
 </category>
         
 <category>
-    <pattern>TYou're The Worst</pattern>
+    <pattern>You're The Worst</pattern>
     <template>
         <carousel>
             <card>
@@ -1073,7 +1072,7 @@
                 </button>
                 <button>
                     <text>Doresc sÄ Ã®mi recomandaÈi alt serial</text>
-                    <postback>recomandare</postback>
+                    <postback>recomandare6</postback>
                 </button>
             </card>
         </carousel>
